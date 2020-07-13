@@ -1291,7 +1291,7 @@ body {
 }
 
 .about--options > a:nth-child(2) {
-  background-image: url("../img/images.png")
+  background-image: url("../img/css.png")
 }
 
 .about--options > a:nth-child(3) {
@@ -1390,7 +1390,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/contact-visual.png");
+  background-image: url("../img/contact.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat
