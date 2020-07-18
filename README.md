@@ -2,8 +2,8 @@
 Personal website / portfolio | HTML &amp; CSS &amp; JavaScript | https://murphywl.github.io/portfolio/
 
 Portfolio:
-> https://murphywl.github.io/portfolio/works/aod/aod.html
-> https://murphywl.github.io/portfolio/works/binary/binary.html
-> https://murphywl.github.io/portfolio/works/smallapss/smallapss.html
-> https://murphywl.github.io/portfolio/works/business/business.html
-> https://murphywl.github.io/portfolio/works/primeone/primeone.html
+> 1. https://murphywl.github.io/portfolio/works/aod/aod.html
+> 2. https://murphywl.github.io/portfolio/works/binary/binary.html
+> 3. https://murphywl.github.io/portfolio/works/smallapss/smallapss.html
+> 4. https://murphywl.github.io/portfolio/works/business/business.html
+> 5. https://murphywl.github.io/portfolio/works/primeone/primeone.html
