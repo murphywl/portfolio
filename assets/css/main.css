@@ -509,7 +509,7 @@ body {
 .header--logo p {
   font-size: 16px;
   font-weight: 700;
-  text-transform: uppercase
+  text-transform: uppercase;
   transition: 0.5s ease 0s;
   text-transform: uppercase;
 }
@@ -539,7 +539,7 @@ body {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  cursor: pointer
+  cursor: pointer;
   transition: 0.5s ease 0s;
 }
 
@@ -1291,11 +1291,11 @@ body {
 }
 
 .about--options > a:nth-child(2) {
-  background-image: url("../img/css.png")
+  background-image: url("../img/css.jpg")
 }
 
 .about--options > a:nth-child(3) {
-  background-image: url("../img/js.png")
+  background-image: url("../img/js.jpg")
 }
 
 .about--options > a:hover h3 {
