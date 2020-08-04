@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
-400;700&display=swap");
 * {
   padding: 0px;
   margin: 0px;
@@ -745,10 +744,6 @@ body.ie .ibg img {
     padding: 56px 28px 36px 38px;
   }
 
-  .mainblock {
-    background-attachment: absolute;
-  }
-
   .contentblock-about {
     padding: 80px 0px 69px 0px;
   }
@@ -820,6 +815,7 @@ body.ie .ibg img {
 @media screen and (max-width: 767.98px), screen and (max-height: 600px) {
   .mainblock {
     padding: 20px 0;
+    background-attachment: scroll;
   }
 }
 
