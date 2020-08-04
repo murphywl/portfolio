@@ -242,7 +242,8 @@ body.ie .ibg img {
   background-image: url("../img/bg.jpg"); }
 
 .mainblock {
-  min-height: 100vh;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   padding: 280px 0px 120px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -262,6 +263,7 @@ body.ie .ibg img {
 }
 
 .mainblock-content .container {
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
