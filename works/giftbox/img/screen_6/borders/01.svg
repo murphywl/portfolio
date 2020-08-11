@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="611" height="614" viewBox="0 0 611 614">
+    <defs>
+        <path id="mn07a" d="M970 900V326c0-11.046 8.954-20 20-20h258.066a36.794 36.794 0 0 1 18.518 5l4.576 2.665a8 8 0 0 0 8.026.015l4.642-2.68a37.315 37.315 0 0 1 18.659-5H1560c11.046 0 20 8.954 20 20v574c0 11.046-8.954 20-20 20h-257.682a36.907 36.907 0 0 1-18.549-5l-4.58-2.663a8 8 0 0 0-8.041 0l-4.58 2.663a36.907 36.907 0 0 1-18.549 5H990c-11.046 0-20-8.954-20-20z" />
+        <path id="mn07b" d="M958 933V293h634v640zm32-12h258.019a36.907 36.907 0 0 0 18.55-5l4.579-2.663a8 8 0 0 1 8.041 0l4.58 2.663a36.907 36.907 0 0 0 18.55 5H1560c11.046 0 20-8.954 20-20V327c0-11.046-8.954-20-20-20h-257.513a37.315 37.315 0 0 0-18.659 5l-4.642 2.68a8 8 0 0 1-8.026-.015l-4.576-2.665a36.794 36.794 0 0 0-18.518-5H990c-11.046 0-20 8.954-20 20v574c0 11.046 8.954 20 20 20z" />
+        <filter id="mn07c" width="200%" height="200%" x="-50%" y="-50%">
+            <feGaussianBlur in="SourceGraphic" result="FeGaussianBlur1066Out" stdDeviation="6 6" />
+        </filter>
+        <mask id="mn07d">
+            <use fill="#fff" xlink:href="#mn07a" />
+        </mask>
+        <clipPath id="mn07e">
+            <use fill="#fff" xlink:href="#mn07a" />
+        </clipPath>
+    </defs>
+    <g>
+        <g transform="translate(-969 -306)">
+            <use stroke="#000" stroke-width="0" filter="url(#mn07c)" mask="url(&quot;#mn07d&quot;)" xlink:href="#mn07b" />
+            <use fill="#fff" fill-opacity="0" stroke="#fff" stroke-miterlimit="50" stroke-width="8" clip-path="url(&quot;#mn07e&quot;)" xlink:href="#mn07a" />
+        </g>
+    </g>
+</svg>
