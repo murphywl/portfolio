@@ -1287,15 +1287,15 @@ body {
 }
 
 .about--options > a:nth-child(1) {
-  background-image: url("../img/html.jpg")
+  background-image: url("../img/certificate_1.jpg")
 }
 
 .about--options > a:nth-child(2) {
-  background-image: url("../img/css.jpg")
+  background-image: url("../img/certificate_2.jpg")
 }
 
 .about--options > a:nth-child(3) {
-  background-image: url("../img/js.jpg")
+  background-image: url("../img/certificate_3.jpg")
 }
 
 .about--options > a:hover h3 {
