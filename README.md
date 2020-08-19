@@ -10,3 +10,9 @@ Portfolio:
 > 6. https://murphywl.github.io/portfolio/works/x4design/x4design.html
 > 7. https://murphywl.github.io/portfolio/works/primeone/primeone.html
 > 8. https://murphywl.github.io/portfolio/works/giftbox/giftbox.html
+> 9. https://medid.uz/
+> 10. http://psy-well.com/
+> 11. http://crm.medid.uz/
+> 12. https://lampovoeit.space/
+> 13. https://murphywl.github.io/portfolio/works/piroll-design/piroll-design.html
+> 14. https://murphywl.github.io/portfolio/works/cloudyrr/cloudyrr.html
