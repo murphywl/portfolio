@@ -1,0 +1,384 @@
+/*------------------------------------------------------------------------------
+/ 1. Font Settings
+/------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Barlow:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&display=swap');
+
+/*------------------------------------------------------------------------------
+/ 2. All Presets
+/------------------------------------------------------------------------------*/
+body, html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #757575;
+    letter-spacing: 0;
+}
+p{
+    margin: 0 0 10px;
+}
+p.ast_lead{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+    line-height: 1.1;
+    color: #000;
+    margin: 0 0 15px;
+}
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 18px;
+}
+h6{
+    font-size: 16px;
+}
+
+.wight_100{
+    font-weight: 100 !important;
+}
+.wight_200{
+    font-weight: 200 !important;
+}
+.wight_300{
+    font-weight: 300 !important;
+}
+.wight_400{
+    font-weight: 400 !important;
+}
+.wight_500{
+    font-weight: 500 !important;
+}
+.wight_600{
+    font-weight: 600 !important;
+}
+.wight_700{
+    font-weight: 700 !important;
+}
+.wight_800{
+    font-weight: 800 !important;
+}
+.wight_900{
+    font-weight: 900 !important;
+}
+
+a{
+    color: #138bff;
+    text-decoration: none;
+    transition: all ease 300ms;
+    -ms-transition: all ease 300ms;
+    -webkit-transition: all ease 300ms;
+}
+a:hover, a:focus{
+    color: #000;
+    outline: 0;
+    text-decoration: none;
+}
+.ast_btn{
+    position: relative;
+    display: inline-block;
+    border-radius: 45px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    min-width: 160px;
+    padding: 0 40px;
+    height: 45px;
+    letter-spacing: 1px;
+    line-height: 43px;
+    text-transform: uppercase;
+    background: rgb(236,7,199);
+    background: linear-gradient(80deg, rgba(236,7,199,1) 0%, rgba(19,139,255,1) 100%);
+    transition: all ease 400ms;
+    -ms-transition: all ease 400ms;
+    -webkit-transition: all ease 400ms;
+}
+button.ast_btn{
+    border: none;
+}
+.ast_btn i{
+    margin-left: 10px;
+    font-size: 16px;
+    display: inline-block;
+    top: 1px;
+    color: #FFF;
+    left: 0;
+    position: relative;
+    transition: all ease 300ms;
+    -ms-transition: all ease 300ms;
+    -webkit-transition: all ease 300ms;
+}
+.ast_btn span{
+    position: relative;
+    z-index: 2;
+}
+.ast_btn:after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: '';
+    visibility: hidden;
+    border-radius: 45px;
+    z-index: 1;
+    opacity: 0;
+    background: rgb(236,7,199);
+    background: linear-gradient(-80deg, rgba(236,7,199,1) 0%, rgba(19,139,255,1) 100%);
+    transition: all ease 400ms;
+    -ms-transition: all ease 400ms;
+    -webkit-transition: all ease 400ms;
+}
+.ast_btn:hover:after{
+    visibility: visible;
+    opacity: 1;
+}
+.ast_btn:hover{
+    color: #FFF;
+    position: relative;
+    z-index: 3;
+}
+.ast_btn:hover i{
+    left: 6px;
+    color: #fff;
+}
+.ast_btn_2{
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    min-width: 160px;
+    padding: 0 40px;
+    height: 45px;
+    letter-spacing: 1px;
+    line-height: 43px;
+    text-transform: uppercase;
+    background: #138bff;
+    transition: all ease 400ms;
+    -ms-transition: all ease 400ms;
+    -webkit-transition: all ease 400ms;
+}
+.ast_btn_2.rounds{
+    border-radius: 45px;
+}
+.ast_btn_2.square{
+    border-radius: 0;
+}
+.ast_btn_2.white{
+    background: #FFF;
+    color: #138bff;
+}
+.ast_btn_2.white i{
+    color: #138bff;
+}
+button.ast_btn_2{
+    border: none;
+}
+.ast_btn_2 i{
+    margin-left: 10px;
+    font-size: 16px;
+    display: inline-block;
+    top: 1px;
+    left: 0;
+    color: #fff;
+    position: relative;
+    transition: all ease 400ms;
+    -ms-transition: all ease 400ms;
+    -webkit-transition: all ease 400ms;
+}
+.ast_btn_2:hover{
+    color: #138bff;
+    background: #000;
+}
+.ast_btn_2:hover i{
+    color: #138bff;
+    left: 5px;
+}
+.ast_btn_2.white:hover{
+    background: #138bff;
+    color: #fff;
+}
+.ast_btn_2.white:hover i{
+    color: #fff;
+}
+.ast_vieo_btn{
+    color: #138bff;
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    padding: 0;
+    animation: video_shadows 1s linear infinite;
+    border-radius: 50%;
+}
+.ast_vieo_btn i {
+    display: inline-block;
+    line-height: 80px;
+    font-size: 20px;
+    color: #138bff;
+    background: #FFF;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+    border-radius: 50%;
+    transition: all ease 300ms;
+    -moz-transition: all ease 300ms;
+    -webkit-transition: all ease 300ms;
+    -ms-transition: all ease 300ms;
+    -o-transition: all ease 300ms;
+}
+.ast_vieo_btn:hover i{
+    color: #000;
+}
+@keyframes video_shadows {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, .09), 0 0 0 20px rgba(255, 255, 255, .09), 0 0 0 40px rgba(255, 255, 255, .09);
+    }
+    100% {
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, .09), 0 0 0 40px rgba(255, 255, 255, .09), 0 0 0 60px rgba(255, 255, 255, 0);
+    }
+}
+input:focus, a:focus, select:focus, textarea:focus, button:focus{
+    outline: 0;
+    box-shadow: none;
+}
+.comon_section{
+    position: relative;
+    padding: 120px 0;
+}
+.fullHeight{
+    height: 100vh;
+}
+.overlay{
+    position: relative;
+}
+.overlay:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*    background: rgba(0, 0, 0, .65);*/
+    content: '';
+    background: rgb(236,7,199);
+    background: linear-gradient(80deg, rgba(236,7,199,.8) 0%, rgba(19,139,255,.8) 100%);
+}
+.overlay.ov2:after{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,0.8) 0%, rgba(252,70,107,0.8) 100%);
+}
+.overlay.ov3:after{
+    background: rgb(252,70,107);
+    background: radial-gradient(circle, rgba(252,70,107,0.8) 0%, rgba(63,94,251,0.8) 100%);
+}
+.overlay.ov4:after{
+    background: rgba(0, 0, 0, .4);
+}
+.overlay .container, .overlay .container-fluid{
+    position: relative;
+    z-index: 2;
+}
+.vmiddle{
+    position: relative;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.halfImg{
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.halfImg.inRight{
+    left: auto;
+    right: 0;
+}
+.halfImg img{
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    width: auto;
+}
+.sec_sub_title{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #138bff;
+    line-height: .8;
+    margin: 0 0 22px;
+    text-transform: uppercase;
+}
+.sec_sub_title.white{
+    color: #FFF;
+}
+.sec_sub_title.black{
+    color: #000;
+}
+.sec_title{
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 45px;
+}
+.sec_title.white{
+    color: #fff;
+}
+.sec_title_2{
+    font-size: 38px;
+    line-height: 48px;
+    color: #000;
+    font-weight: 200;
+    letter-spacing: 0;
+    margin: 0;
+}
+.sec_title_2 span{
+    font-weight: 300;
+}
+.imgDiv{
+    position: relative;
+}
+.imgDiv img{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.noPadding{
+    padding: 0;
+}
+.noPaddingLeft{
+    padding-left: 0;
+}
+.noPaddingRight{
+    padding-right: 0;
+}
+.noMarginBottom{
+    margin-bottom: 0 !important;
+}
